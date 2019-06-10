@@ -4,15 +4,15 @@
 使用方式:
 ```js
 //单独引入的时候
-import ElInputNumber from './el-input-number';
+import ElInputNumber from './input-number';
 export default {
   components:{ElInputNumber}
 }
 
-//全局引入element-ui的时候,可以覆盖element-ui原装的el-input-number
+//全局引入element-ui的时候,可以覆盖element-ui原装的input-number
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import ElInputNumber from "./el-input-number.vue";
+import ElInputNumber from "./input-number.vue";
 Vue.use(ElementUI);
 Vue.component(ElInputNumber.name,ElInputNumber);
 ```
